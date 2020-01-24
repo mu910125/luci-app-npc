@@ -8,4 +8,5 @@ config npc 'config'
 	option crypt '1'
 	option vkey 'aaa'
 	option log_level '4'
+	option auto_reconnection 'true'
 

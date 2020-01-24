@@ -4,7 +4,7 @@ if not nixio.fs.access("/etc/config/npc")then
 return
 end
 local e
-e=entry({"admin","services","npc"},cbi("npc"),_("Npc Setting"),100)
+e=entry({"admin","services","npc"},cbi("npc"),_("Nps Client Setting"),100)
 e.i18n="npc"
 e.dependent=true
 entry({"admin","services","npc","status"},call("status")).leaf=true

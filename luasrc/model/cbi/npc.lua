@@ -11,6 +11,12 @@ s.anonymous=true
 s:tab("basic",translate("Basic Setting"))
 enable=s:taboption("basic",Flag,"enabled",translate("Enable"))
 enable.rmempty=false
+
+auto_reconnection=s:taboption("basic",ListValue,"auto_reconnection",translate("Auto Reconnection"))
+auto_reconnection.default="true"
+auto_reconnection:value("true",translate("True"))
+auto_reconnection:value("false",translate("False"))
+
 server=s:taboption("basic",Value,"server_addr",translate("Server"),translate("Must an IPv4 address"))
 server.datatype="ipaddr"
 server.optional=false
