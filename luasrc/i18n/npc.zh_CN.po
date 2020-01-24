@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
-msgid "Nps Setting"
-msgstr "Nps内网穿透"
+msgid "Nps Client Setting"
+msgstr "Nps内网穿透客户端"
 
 msgid "Enable Compression"
 msgstr "使用压缩传输"

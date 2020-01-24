@@ -1,2 +1,2 @@
-# luci-app-nps
+# luci-app-npc
  

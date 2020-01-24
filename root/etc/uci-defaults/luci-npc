@@ -1,9 +1,9 @@
 #!/bin/sh
 
 uci -q batch <<-EOF >/dev/null
-	delete ucitrack.@nps[-1]
-	add ucitrack nps
-	set ucitrack.@nps[-1].init=nps
+	delete ucitrack.@npc[-1]
+	add ucitrack npc
+	set ucitrack.@npc[-1].init=npc
 	commit ucitrack
 EOF
 

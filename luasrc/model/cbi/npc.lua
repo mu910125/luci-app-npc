@@ -1,10 +1,10 @@
-m=Map("nps")
-m.title=translate("Nps Setting")
+m=Map("npc")
+m.title=translate("Nps Client Setting")
 m.description=translate("Nps is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.")
 
-m:section(SimpleSection).template="nps/nps_status"
+m:section(SimpleSection).template="npc/npc_status"
 
-s=m:section(TypedSection,"nps")
+s=m:section(TypedSection,"npc")
 s.addremove=false
 s.anonymous=true
 
