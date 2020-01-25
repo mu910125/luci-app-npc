@@ -12,8 +12,8 @@ s:tab("basic",translate("Basic Setting"))
 enable=s:taboption("basic",Flag,"enabled",translate("Enable"))
 enable.rmempty=false
 
-server=s:taboption("basic",Value,"server_addr",translate("Server"),translate("Must an IPv4 address"))
-server.datatype="ipaddr"
+server=s:taboption("basic",Value,"server_addr",translate("Server"))
+server.datatype="host"
 server.optional=false
 server.rmempty=false
 
