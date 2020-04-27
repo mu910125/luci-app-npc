@@ -7,7 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI for Nps Client
-LUCI_DEPENDS:=+wget +npc
+LUCI_DEPENDS:=+wget
 LUCI_PKGARCH:=all
 PKG_VERSION:=1.1
 PKG_RELEASE:=2
